@@ -85,7 +85,6 @@ dist
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
 # vuepress build output
@@ -134,6 +133,33 @@ dist
 !.yarn/sdks
 !.yarn/versions
 
-# Vite logs files
+# Vite logs
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Added for Vite + React + TypeScript
+.vite/
+dist/
+*.local
+
+# API key protection
+.env.local
+.env.production
+.env.development
+
+# MacOS & Windows junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
