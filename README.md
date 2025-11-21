@@ -15,3 +15,10 @@ The Smart Recipe Finder App helps users discover recipes they can make with ingr
 It uses live recipe APIs to deliver thousands of results, complete with nutrition details, cook times, and difficulty levels. Users can favorite recipes and generate shopping lists for missing items.
 
 This project highlights skills in API integration, intelligent search logic, recipe data management, and building practical applications that solve everyday problems.
+
+## How to use it:
+
+Go to Spoonacular and get a free API key:
+https://spoonacular.com/food-api
+
+Replace your_api_key_here with your real key in .env.
